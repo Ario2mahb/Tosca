@@ -34,7 +34,7 @@ evmone:
 test: test-go test-cpp
 
 test-go: tosca-go
-	@go test ./... -count 1
+	@go test ./... -count7
 
 test-cpp: tosca-cpp
 	@cd cpp/build ; \
